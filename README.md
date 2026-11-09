@@ -81,3 +81,19 @@ Python, PyTorch, MONAI, NiBabel, NumPy, Scikit-learn, Matplotlib, CUDA.
 ## Disclaimer
 
 This project is intended for educational and research purposes only and is not a medical diagnostic tool.
+
+## Visual Results
+
+### Segmentation Predictions — U-Net V1 vs V2
+
+Comparison of the original FLAIR MRI, ground-truth annotation,
+and tumor segmentation predictions from both models.
+
+![Brain Tumor Segmentation](results/segmentation_comparison.png)
+
+### Quantitative Evaluation — Dice Score
+
+Comparison of U-Net V1 and U-Net V2 on 20 held-out MRI volumes.
+
+![Dice Score Comparison](results/dice_comparison.png)
+
