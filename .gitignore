@@ -1,0 +1,23 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Données médicales
+data/
+*.nii
+*.nii.gz
+*.tar
+
+# Modèles entraînés
+*.pth
+*.pt
+*.ckpt
+
+# Fichiers temporaires
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+._*
+notebooks/*_backup.ipynb
